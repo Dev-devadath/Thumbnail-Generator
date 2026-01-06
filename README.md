@@ -2,8 +2,6 @@
 
 An AI-powered tool that generates YouTube thumbnails using multiple specialized agents working together. The system analyzes video content, processes images, and generates engaging thumbnails using OpenAI's gpt-image1 model.
 
-<img width="1903" height="910" alt="image" src="https://github.com/user-attachments/assets/be6bbfd5-7c41-4615-9e64-4e68dcf0fc69" />
-
 
 ## Architecture
 
@@ -43,6 +41,8 @@ The system consists of several specialized agents:
 - Manages user input and agent interactions
 - Handles the complete thumbnail generation process
 - Provides a user-friendly command-line interface
+
+<img width="1903" height="910" alt="image" src="https://github.com/user-attachments/assets/be6bbfd5-7c41-4615-9e64-4e68dcf0fc69" />
 
 ## Setup
 
@@ -137,4 +137,5 @@ Generated thumbnails are saved as PNG files with timestamps in the format:
 ```
 thumbnail_[timestamp].png
 ```
+
 
